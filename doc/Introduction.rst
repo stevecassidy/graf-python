@@ -1,6 +1,6 @@
 
 Introduction
-============  
+============
 
 This document explains some functions of the graf-python library such as the parsing of GrAF files.
 
@@ -8,5 +8,5 @@ To use the graf-python library is important to know that the files must use the 
 
 To know more about GrAF and GrAF ISO standards you can consult:
 
-* GrAF-wiki (http://www.americannationalcorpus.org/graf-wiki)
+* GrAF-wiki (http://www.anc.org/graf-wiki)
 * GrAF ISO standards (http://www.iso.org/iso/catalogue_detail.htm?csnumber=37326)

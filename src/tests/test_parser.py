@@ -14,10 +14,11 @@ methods of the class GraphParser in io module.
 """
 
 import os
+import unittest
 
 from graf import GraphParser
 
-class TestGraphParser:
+class TestGraphParser(unittest.TestCase):
     """
     This class contains the test methods of the class GraphParser.
 

@@ -14,8 +14,9 @@ methods of the classes.
 """
 
 from graf import Graph, AnnotationSpace, Annotation, Node, Edge, Region
+import unittest
 
-class TestGraph:
+class TestGraph(unittest.TestCase):
     """
     This class contains the test methods that influence
     the creation of the members in a GrAF.

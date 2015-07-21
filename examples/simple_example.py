@@ -23,11 +23,8 @@ graph.nodes.add(node_one)
 graph.nodes.add(node_two)
 graph.nodes.add(node_three)
 
-# Create the edge
-edge = Edge(node_one, node_three)
-
-# Add an the edge
-#graph.add_edge(edge)
+# Create an edge
+edge = graph.create_edge(node_one, node_three)
 
 # Add Features
 feature_strct = FeatureStructure() # Structure
@@ -48,5 +45,5 @@ annotation.features['feature3'] = 'value_3'
 node_one.annotations.add(annotation)
 
 # Rendering the Graph
-graf_render = GrafRenderer(sys.stdout)
+graf_render = GrafRenderer("output.xml")
 graf_render.render(graph)

@@ -56,5 +56,5 @@ setup(
     package_dir = {'':'src'},
     package_data = {'graf': ['VERSION']},
     #install_requires=['PyYAML>=3.09'],
-    #test_suite = 'graf.test.simple',
+    test_suite = 'tests',
     )
